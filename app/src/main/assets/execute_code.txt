@@ -1,0 +1,34 @@
+var params = %(values)s,
+        calls = 0,
+        items = [],
+        count = %(count)s,
+        offset = %(offset)s,
+        ri;
+
+    while(calls < 25) {
+        calls = calls + 1;
+        params.offset = offset * %(offset_mul)s;
+        var response = API.%(method)s(params),
+            new_count = response.count,
+            count_diff = (count == null ? 0 : new_count - count);
+        if (count_diff < 0) {
+            offset = offset + count_diff;
+        } else {
+            ri = response.%(key)s;
+            items = items + ri.slice(count_diff);
+            offset = offset + params.count + count_diff;
+            if (ri.length < params.count) {
+                calls = 99;
+            }
+        }
+        count = new_count;
+        if (count != null && offset >= count) {
+            calls = 99;
+        }
+    };
+    return {
+        count: count,
+        items: items,
+        offset: offset,
+        more: calls != 99
+    };

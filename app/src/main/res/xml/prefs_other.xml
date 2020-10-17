@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/settings_other">
+        <SwitchPreference
+            android:icon="@android:color/transparent"
+            android:key="proxy"
+            app:icon="@drawable/ic_vector_shield"
+            android:title="@string/settings_proxy" />
+
+        <EditTextPreference
+            android:icon="@android:color/transparent"
+            android:key="api_domain"
+            android:title="@string/settings_api_domain" />
+
+        <EditTextPreference
+            android:icon="@android:color/transparent"
+            android:key="oauth_domain"
+            android:title="@string/settings_oauth_domain" />
+    </PreferenceCategory>
+</PreferenceScreen>

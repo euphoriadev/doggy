@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ads -->
+    <string name="ad_app_id" translatable="false">ca-app-pub-5178091468942049~2795773987</string>
+    <string name="ad_main_banner_id" translatable="false">ca-app-pub-5178091468942049/3955957429</string>
+    <string name="ad_message_banner_id" translatable="false">ca-app-pub-5178091468942049/4091688793</string>
+    <string name="ad_main_reward" translatable="false">ca-app-pub-5178091468942049/9699238691</string>
+    <string name="ad_friends_interstitial" translatable="false">ca-app-pub-5178091468942049/3572814041</string>
+    <string name="ad_native_banner" translatable="false">ca-app-pub-5178091468942049/2649303782</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/no_lyrics"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="?android:textColorSecondary" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button.find.lyrics"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:drawableStart="@drawable/ic_vector_google"
+        android:drawablePadding="8dp"
+        android:text="@string/find_lyrics_in_google" />
+</LinearLayout>

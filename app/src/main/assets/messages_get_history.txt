@@ -1,0 +1,30 @@
+var peer_id = %s;
+var offset = %s;
+var count = 200;
+var call_count = 0;
+var response_items;
+
+var params = {
+    "peer_id": peer_id,
+    "offset": offset,
+    "count": count,
+    "rev": 1
+};
+
+var messages = API.messages.getHistory(params);
+var msg_count = messages.count;
+var response_items = messages.items;
+
+while (call_count < 24 && offset < msg_count) {
+    call_count = call_count + 1;
+    offset = offset + count;
+    params.offset = offset;
+
+    messages = API.messages.getHistory(params);
+    response_items = response_items + messages.items;
+}
+var response = {
+    "count": msg_count,
+    "items": response_items
+};
+return response;

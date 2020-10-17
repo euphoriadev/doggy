@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_search"
+        android:icon="@drawable/ic_vector_search"
+        android:title="@string/item_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_storage_path"
+        android:title="@string/music_folder"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_download_more"
+        android:title="@string/bulk_download"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_find_lyrics"
+        android:title="@string/find_lyrics"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_audios_size"
+        android:title="@string/get_audios_size"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_audio_shuffle"
+        android:title="@string/shuffle"/>
+
+    <item
+        android:id="@+id/item_audio_scroll"
+        android:title="@string/scroll_to_bottom"
+        app:showAsAction="never" />
+
+    <!--<item-->
+    <!--android:id="@+id/item_downloader"-->
+    <!--android:title="@string/downloader">-->
+
+    <!--<menu>-->
+    <!--<group android:id="@+id/group_downloader" android:checkableBehavior="single">-->
+    <!--<item-->
+    <!--android:checked="true"-->
+    <!--android:id="@+id/item_system_downloader"-->
+    <!--android:title="@string/system_downloader" />-->
+    <!--<item-->
+    <!--android:id="@+id/item_alternative_downloader"-->
+    <!--android:title="@string/alternative_downloader" />-->
+    <!--</group>-->
+    <!--</menu>-->
+    <!--</item>-->
+
+</menu>

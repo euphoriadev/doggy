@@ -1,0 +1,19 @@
+var user_id = %s;
+var friend_id = %s;
+var params = {
+    "user_id": friend_id,
+    "count": 1000,
+    "fields": "domain, photo_50",
+    "order": "hints"
+};
+var friends = API.friends.get(params);
+var lists = friends.items@.lists;
+var index = friends.items@.id.indexOf(user_id);
+
+return {
+"items": API.friends.getLists({
+    "user_id": friend_id,
+    "return_system": 1
+}).items,
+"lists": lists[index]
+};

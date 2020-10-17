@@ -1,0 +1,162 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/content_padding"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/player.title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="?android:textColorPrimary"
+            android:textStyle="bold"
+            tools:text="Turn up the Radio" />
+
+        <TextView
+            android:id="@+id/player.subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="?android:textColorSecondary"
+            tools:text="OK Go" />
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/content_padding" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/content_padding"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <com.google.android.exoplayer2.ui.DefaultTimeBar
+            android:id="@id/exo_progress"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            app:buffered_color="@color/colorAccentBackground"
+            app:played_color="@color/colorAccent"
+            app:scrubber_color="?colorAccent"
+            app:unplayed_color="?audioPlaceholderBackground" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@id/exo_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:textColor="?android:textColorHint"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="1:25" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@id/exo_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:textColor="?android:textColorHint"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="3:00" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="4dp"
+        app:alignItems="center"
+        app:flexDirection="row"
+        app:flexWrap="nowrap"
+        app:justifyContent="space_between">
+
+        <ImageButton
+            android:id="@id/exo_repeat_toggle"
+            style="@style/PlayerActionButton"
+            android:layout_width="@dimen/player_button_size_very_small"
+            android:layout_height="@dimen/player_button_size_very_small"
+            android:src="@drawable/exo_controls_repeat_one" />
+
+        <ImageButton
+            android:id="@id/exo_prev"
+            style="@style/PlayerActionButton"
+            android:layout_width="@dimen/player_button_size_small"
+            android:layout_height="@dimen/player_button_size_small"
+            android:src="@drawable/exo_controls_previous" />
+
+        <ImageButton
+            android:id="@id/exo_play"
+            style="@style/PlayerActionButton"
+            android:layout_width="@dimen/player_button_size"
+            android:layout_height="@dimen/player_button_size"
+            android:src="@drawable/exo_controls_play" />
+
+        <ImageButton
+            android:id="@id/exo_pause"
+            style="@style/PlayerActionButton"
+            android:layout_width="@dimen/player_button_size"
+            android:layout_height="@dimen/player_button_size"
+            android:src="@drawable/exo_controls_pause" />
+
+        <ImageButton
+            android:id="@id/exo_next"
+            style="@style/PlayerActionButton"
+            android:layout_width="@dimen/player_button_size_small"
+            android:layout_height="@dimen/player_button_size_small"
+            android:src="@drawable/exo_controls_next" />
+
+        <ImageButton
+            android:id="@id/exo_shuffle"
+            style="@style/PlayerActionButton"
+            android:layout_width="@dimen/player_button_size_very_small"
+            android:layout_height="@dimen/player_button_size_very_small"
+            android:src="@drawable/exo_controls_shuffle_on" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+
+</LinearLayout>

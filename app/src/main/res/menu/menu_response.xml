@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_vector_link"
+        android:id="@+id/item_link"
+        android:title="@string/copy_link"
+        app:showAsAction="always" />
+
+    <item
+        android:icon="@drawable/ic_vector_copy"
+        android:id="@+id/item_copy"
+        android:title="@string/copy_text"
+        app:showAsAction="always" />
+</menu>

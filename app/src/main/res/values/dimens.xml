@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_elevation">2dp</dimen>
+    <dimen name="avatar_size">46dp</dimen>
+    <dimen name="avatar_size_small">42dp</dimen>
+    <dimen name="content_padding">16dp</dimen>
+
+    <!--  Video list item  -->
+    <dimen name="content_padding_video_item">12dp</dimen>
+    <dimen name="content_padding_video_item_half">6dp</dimen>
+
+    <dimen name="custom_profile_image">50dp</dimen>
+    <dimen name="custom_profile_triangle_width">20.8dp</dimen>
+    <dimen name="custom_profile_triangle_padding">10dp</dimen>
+    <dimen name="custom_profile_padding">1dp</dimen>
+
+    <dimen name="player_button_size">64dp</dimen>
+    <dimen name="player_button_size_small">52dp</dimen>
+    <dimen name="player_button_size_very_small">32dp</dimen>
+
+    <!--Ads -->
+    <item name="gnt_medium_template_bottom_weight" format="float" type="dimen">0.4</item>
+    <item name="gnt_text_row_weight" format="float" type="dimen">0.25</item>
+    <item name="gnt_media_view_weight" format="float" type="dimen">1.0</item>
+    <item name="gnt_medium_template_top_weight" format="float" type="dimen">0.2</item>
+    <dimen name="gnt_default_margin">10dp</dimen>
+    <dimen name="gnt_text_size_small">12sp</dimen>
+    <dimen name="gnt_text_size_large">15sp</dimen>
+    <dimen name="gnt_ad_indicator_width">25dp</dimen>
+    <dimen name="gnt_ad_indicator_height">20dp</dimen>
+    <dimen name="gnt_ad_indicator_bar_height">30dp</dimen>
+    <dimen name="gnt_ad_indicator_top_margin">0dp</dimen>
+    <dimen name="gnt_ad_indicator_bottom_margin">10dp</dimen>
+    <dimen name="gnt_ad_indicator_text_size">10sp</dimen>
+    <dimen name="gnt_small_cta_button_height">30dp</dimen>
+    <dimen name="gnt_medium_cta_button_height">50dp</dimen>
+    <dimen name="gnt_no_margin">0dp</dimen>
+    <dimen name="gnt_no_size">0dp</dimen>
+
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>

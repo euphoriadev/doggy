@@ -1,0 +1,373 @@
+<resources>
+    <string name="app_name" translatable="false">Doggy</string>
+    <string name="settings">Настройки</string>
+    <string name="logout">Выйти из аккаунта</string>
+    <string name="information">Важная информация</string>
+    <string name="error_connection">Проверьте подключение к интернету</string>
+    <string name="error_analyze_processing">Дождитесь окончания анализа</string>
+
+    <!--  Playback notification  -->
+    <string name="playback_channel_name">Doggy Player</string>
+
+    <string name="changelog" translatable="false">
+        - мат
+    </string>
+
+    <!--Google Maps -->
+    <string name="google_maps_key" translatable="false">AIzaSyDYyUVzeCbk62sahsCdhQ8eDGvdrdOdr68</string>
+
+    <string name="start_auth">Вход</string>
+    <string name="start_summary">Мощный функционал для ВК</string>
+
+    <string name="chat_choice">Выберите чат</string>
+    <string name="item_friends">Друзья</string>
+    <string name="item_messages">Сообщения</string>
+    <string name="item_photos">Фотографии</string>
+    <string name="item_groups">Группы</string>
+    <string name="item_chats">Беседы</string>
+    <string name="item_audios">Музыка</string>
+    <string name="item_developers">Разработчикам</string>
+    <string name="item_requests">Запросы к API</string>
+    <string name="item_monitor">Мониторинг</string>
+
+    <!-- Friends -->
+    <string name="friends_choice">Выберите друга</string>
+    <string name="friends_reg_date">Дата регистрации</string>
+    <string name="friends_reg_date_info">Дата регистрации:
+        \n%s\n
+        \nПрошло времени:
+        \n%,d дней (%,d лет)
+        \n%,d часов
+        \n%,d минут
+    </string>
+    <string name="friends_contacts">Контакты</string>
+    <string name="friends_birthday">Дни рождения</string>
+    <string name="friends_dogs_clean">Очистка от собачек</string>
+    <string name="friends_deactivated_info">
+        <b>BANNED</b> - Пользователь заблокирован за нарушение правил.
+        \n\n<b>DELETED</b> - Пользователь удалил страницу. Такое бывает из-за депрессии,
+        либо ему не хватает внимания. Потом восстановит.
+
+    </string>
+
+    <string name="no_dogs">У вас нет собачек. Хотите купить их в нашем зоомагазине?</string>
+    <string name="dogs_shop_not_open">Зоомагазин еще не открыт :(</string>
+    <string name="buy">Купить</string>
+
+    <!-- Messages -->
+    <string name="dialogs_clean">Очистка диалогов</string>
+    <string name="messages_graph">График активности</string>
+    <string name="messages_stats">Статистика сообщений</string>
+    <string name="messages_analyze">Анализ диалога</string>
+    <string name="messages_stats_info" formatted="false">
+        <![CDATA[
+        <b>Всего сообщений:</b> %,d / %,d
+        <br><b>Первое:</b> %s
+        <br><b>Последнее:</b> %s
+        <br><b>Исходящих:</b> %,d
+        <br><b>Входящих:</b> %,d
+        <br><b>Пересланных:</b> %,d
+        <br><b>Кол-во слов:</b> %,d
+        <br><b>Кол-во символов:</b> %,d
+        <br><b>Нецензурных слов:</b> ~%,d
+        <br>\n
+        <br><b>Всего вложений:</b> %,d
+        <br><b>Фотографии:</b> %,d
+        <br><b>Аудио:</b> %,d
+        <br><b>Видео:</b> %,d
+        <br><b>Документы:</b> %,d
+        <br><b>Голосовые:</b> %,d
+        <br><b>Звонки:</b> %,d
+        <br><b>Стена:</b> %,d
+        <br><b>Стикеры:</b> %,d
+        <br><b>Подарки:</b> %,d
+        <br><b>Ссылки:</b> %,d
+        ]]>
+    </string>
+    <string name="messages_stats_info_expanded" formatted="false">
+        <![CDATA[
+        <b>Всего сообщений:</b> %,d / %,d • %,d%%
+        <br><b>Первое:</b> %s
+        <br><b>Последнее:</b> %s
+        <br><b>Исходящих:</b> %,d • %.2f%%
+        <br><b>Входящих:</b> %,d • %.2f%%
+        <br><b>Пересланных:</b> %,d
+        <br><b>Кол-во слов:</b> %,d
+        <br><b>Кол-во символов:</b> %,d
+        <br><b>Нецензурных слов:</b> ~%,d
+        <br>\n
+        <br><b>Всего вложений:</b> %,d
+        <br><b>Фотографии:</b> %,d • %,d гео точек
+        <br><b>Аудио:</b> %,d • %s
+        <br><b>Видео:</b> %,d
+        <br><b>Документы:</b> %,d • %s
+        <br><b>Голосовые:</b> %,d • %s
+        <br><b>Звонки:</b> %,d • %s
+        <br><b>Стена:</b> %,d
+        <br><b>Стикеры:</b> %,d
+        <br><b>Подарки:</b> %,d
+        <br><b>Ссылки:</b> %,d
+        ]]>
+    </string>
+    <string name="msg_top_emoji">Популярные эмодзи</string>
+    <string name="messages_top_words">Популярные слова</string>
+    <string name="messages_top_days">Топ дней</string>
+    <string name="messages_members">Участники</string>
+    <string name="more">Показать ещё</string>
+    <string name="messages_chat_restore_info">Показывает все ваши беседы,
+        в том числе беседы из которых вы вышли,
+        и позволяет снова в них войти. К сожалению сообщения,
+        если вы их удалили, восстановить уже <b>не получится</b>
+    </string>
+    <string name="messages_chat_restore_success">Чат востановлен</string>
+    <string name="choice_quality">Выберите качество</string>
+    <string name="downloading_photos">Скачивание изображений…</string>
+
+    <!-- Photos -->
+
+    <!-- You were removed from friends -->
+    <string name="unsubscribe">Отписаться</string>
+
+    <string name="settings_general">Основное</string>
+    <string name="settings_general_summary">Ночная тема, онлайн и другое</string>
+    <string name="settings_night_mode">Ночной режим</string>
+    <string name="settings_in_subscribers">Вы в подписчиках</string>
+    <string name="settings_in_subscribers_summary">Проверять при каждом запуске, кто удалил вас из друзей</string>
+    <string name="settings_online">Вечный онлайн</string>
+    <string name="settings_online_summary">Посылать аккаунт в онлайн каждые 30 сек. Работает даже при выключеном приложении</string>
+
+    <string name="settings_disable_ads">Отключить рекламу</string>
+    <string name="settings_disable_ads_summary">Таким образом вы поддерживаете разработку</string>
+
+    <string name="settings_about">О приложении</string>
+    <string name="settings_about_summary">Разработчик, новости, поддержка</string>
+    <string name="settings_developer">Разработчик</string>
+    <string name="settings_developer_summary">Игорь Морозкин</string>
+
+    <string name="settings_share">Поделиться</string>
+    <string name="settings_page_share">Мы будем вам благодарны, если вы расскажете своим друзьям</string>
+
+    <string name="settings_page">Telegram Channel</string>
+    <string name="settings_page_summary">Новости и многое другое</string>
+
+    <string name="settings_vk_scripts">VK Scripts</string>
+    <string name="settings_vk_scripts_summary">Спасибо за идеи</string>
+    <string name="ads_disabled">Спасибо! Реклама отключена. Перезапустите приложение</string>
+
+    <string name="alert_feedback_title">Упс, ошибочка</string>
+    <string name="alert_feedback_message">Кажется приложение в прошлый раз завершилось с ошибкой. Хотите написать мне и вместе решить эту проблему?</string>
+    <string name="members">Участники</string>
+    <string name="invited_by">пригласил(а) %s</string>
+    <string name="chat_admin">Создатель</string>
+    <string name="disable_ads_message">Вы можете купить лицензию и отключить рекламу <b>навсегда</b>. Либо посмотреть одно короткое видео и отключить рекламу на день</string>
+    <string name="action_buy">Купить</string>
+    <string name="action_watch_video">Смотреть видео</string>
+    <string name="choice_number">Выберите номер</string>
+    <string name="download">Скачать</string>
+    <string name="hidden_birthdays">Скрытые дни рождения</string>
+    <string name="unknown">Неизвестно</string>
+    <string name="hidden_birthdays_message">Данная функция является <b>экспериментальной</b>. Возможны нулевые результаты. \nЯ пока точно не могу сказать почему это происходит, ибо работает это через раз на одном и том же человеке. Возможно это защита со стороны вк. Обязательно разберусь. Спасибо за внимание</string>
+    <string name="friends_lists">Списки друзей</string>
+    <string name="friends_requests">Отписка</string>
+    <string name="friends_lists_alert_info">Показывает те списки, в которые добавили вас ваши друзья. Т.е. отображает тех друзей, которые отметили вас, например, как \"Лучшие друзья\", \"Коллеги\". \n\nПридется немного подождать, ибо необходимо проверить всех друзей ваших друзей. Сложная схема, да?</string>
+    <string name="you">\u0020(Вы)\u0020</string>
+    <string name="works">работает</string>
+    <string name="long_click_to_select_all">Сделайте долгое нажатия чтобы выделить все</string>
+    <string name="select_more_friends">Выберите хотя бы одного друга</string>
+    <string name="deleting">Удаление…</string>
+    <string name="groups_clean">Выход из групп</string>
+
+    <string name="type_group">группа</string>
+    <string name="type_page">публичная страница</string>
+    <string name="type_event">мероприятие</string>
+    <string name="no_photos">Нет изображений</string>
+    <string name="success">Выполнено</string>
+    <string name="file_saved_in">Файл сохранен в </string>
+    <string name="save_chat">Сохранить чат</string>
+    <string name="settings_other">Прочее</string>
+    <string name="settings_other_summary">Прокси, домены</string>
+    <string name="settings_proxy">Прокси</string>
+    <string name="settings_api_domain">Домен API</string>
+    <string name="settings_oauth_domain">Домен OAuth</string>
+    <string name="text_label_login">Логин или email</string>
+    <string name="text_label_password">Пароль</string>
+    <string name="choose_platform">Выберите платформу</string>
+    <string name="settings_online_platform">Онлайн платформа</string>
+    <string name="settings_online_platform_summary">Смена онлайн идентификатора, тем самым друзья будут думать, что вы онлайн с другого устройства. Работает в паре с вечным онлайном. Возможна блокировка аккаунта, осторожно!</string>
+    <string name="text_copied">Текст скопирован</string>
+    <string name="stats_share">Отправить в беседу</string>
+    <string name="reward_failed_to_load">Ошибка при загрузке видео. Попробуйте позже, иногда такое бывает</string>
+    <string name="error_check_license_message">К сожалению нам не удалось проверить лицензию. Причиной этому может служить нелегальная попытка получить ее с помощью таких программ, как Lucky Patcher и Freedom. Пиратство - это плохо</string>
+    <string name="error_check_license">Ошибка</string>
+    <string name="sync_contacts">Синхронизация контактов</string>
+    <string name="friends_requests_alert">Исходящие заявки - это заявки в друзья, которые вы отправили другим пользователям. Но так же они еще отображают тех людей, которые <b>удалили Вас из друзей</b>.\nЗдесь вы можете отписаться от них</string>
+    <string name="action_unsubscribe">Отписаться</string>
+    <string name="friends_ban_message">Успешно отписались от %,d человек. Хотите их заблокировать, чтобы больше вас не беспокоили? :)</string>
+    <string name="blocking">Блокируем</string>
+    <string name="storage_location">Место хранения</string>
+    <string name="audios_subtitle">%s • %s</string>
+    <string name="bulk_download">Массовое скачивание</string>
+    <string name="music_folder">Папка с музыкой</string>
+    <string name="download_enqueue">Создание очереди…</string>
+    <string name="alternative_downloader">Альтернативный загрузчик</string>
+    <string name="alert_alternative_downloader">У вас должен быть установлен один из альтернативных загрузчиков, например Advanced Download Manager или DVGet</string>
+    <string name="save_password">Сохранить пароль</string>
+    <string name="lyrics">Текст песни</string>
+    <string name="translate">Перевод</string>
+    <string name="find_lyrics">Найти слова</string>
+    <string name="find_lyrics_message">Тут есть несколько подводных камней: \n1. Вк перезаливает песни в исходном качестве и запрещает их редактирование. \n2. В базе данных содержаться не все треки. В основном там только иностранные. \nВсе равно добавить недостающий текст к вашим песням? \n\nВся информация предоставлена сайтом azlyrics.com и musixmatch.com</string>
+    <string name="finding_lyrics">Ищем текст…</string>
+    <string name="two_factor_confirm">У вас включена двухфакторная аутентификация. Введите код подтверждения, который придет вам по смс или в сообщения.\n Если ничего не приходит - попробуйте приложение для генирации кодов. ВК - настройки страницы - безопасность - "Приложение для генерации кодов"</string>
+    <string name="cleaning">Чистим…</string>
+    <string name="found_update">Найдено обновление</string>
+    <string name="found_update_message">Найдена новая версия: %s (Сборка %d). Обновить?</string>
+    <string name="choice_app">Выберите приложение</string>
+    <string name="bitrate">Битрейт / Размер</string>
+    <string name="bitrate_per_sec">%d кбит/с</string>
+    <string name="disable_ads_first">Приложение остается бесплатным благодаря рекламе и энтузиазму, однако вы всегда можете ее отключить, тем самым помочь разработке материально</string>
+    <string name="title_response">Ответ</string>
+    <string name="copy_text">Скопировать текст</string>
+    <string name="help">Помощь</string>
+    <string name="refresh">Сбросить</string>
+    <string name="sort">Сортировка</string>
+
+    <string name="sort_by_default">По умолчанию</string>
+    <string name="sort_by_date">По дате</string>
+    <string name="sort_by_alphabet">По алфавиту</string>
+    <string name="sort_by_length">По длине</string>
+    <string name="sort_by_explicit">По нецензурности</string>
+
+    <string name="members_stats_subtitle">%,d всего, %,d исключены</string>
+    <string name="unique_words">уникальных: %,d</string>
+    <string name="unique_smiles">уникальных: %,d</string>
+    <string name="total_days">общительных: %,d</string>
+    <string name="attachments_title">Вложения</string>
+    <string name="login">Войти</string>
+    <string name="auth">Авторизация</string>
+    <string name="empty_login_error">Введите логин</string>
+    <string name="empty_password_error">Введите пароль</string>
+    <string name="online_warring">Участились случаи блокировки аккаунтов из-за вечного онлайна. Вк как обычно сует нам палки в колеса. Я немного изменил алгоритм, но не могу гарантировать, что все будет идеально - используйте на свой страх и риск</string>
+    <string name="copy_link">Скопировать ссылку</string>
+    <string name="downloading">Загрузка…</string>
+    <string name="voice_msg">Голосовое сообщение</string>
+    <string name="get_voice_text">Узнать текст</string>
+    <string name="error_app_modified">Приложение было модифицировано. Пожалуйста, не надо так. Удалите его и установите официальное приложение из Google Play</string>
+    <string name="get_audios_size">Узнать размер</string>
+    <string name="get_audios_size_message">Показывает размер ваших аудио. Может потребовать много времени, т.к. необходимо определить битрейт всех ваших песен, но для примерного значения хватает первых двух-трех. Для отмены просто закройте диалог
+    \n\nПросканировано песен: %d / %d\nРазмер: ~%s
+    </string>
+    <string name="settings_data_and_memory">Данные и память</string>
+    <string name="settings_data_and_memory_summary">Кеш и все такое</string>
+    <string name="clear_local_cache">Очистить кэш данных</string>
+    <string name="clear_image_cache">Очистить кэш изображений</string>
+    <string name="size_format">Размер: %s</string>
+    <string name="export_database">Экспортировать кэш</string>
+    <string name="export_database_summary">Сохранить cache.db в память телефона (messages, users, etc)</string>
+    <string name="settings_music_folder">Папка для музыки</string>
+    <string name="settings_account">Аккаунт</string>
+    <string name="search">Поиск</string>
+    <string name="open_contact">Показать контакт</string>
+    <string name="skype_not_found">Приложение Skype не найдено</string>
+    <string name="settings_qiwi">Разрабу на покушать</string>
+    <string name="choice_csv_fields">Выберите поля для экспорта</string>
+    <string name="show">Показать</string>
+    <string name="export_to_csv">CSV (Excel)</string>
+    <string name="export_to_vcf">VCF (Android)</string>
+    <string name="export_to">Экспорт в</string>
+
+    <plurals name="tracks">
+        <item quantity="one">%,d трек</item>
+        <item quantity="few">%,d трека</item>
+        <item quantity="many">%,d треков</item>
+        <item quantity="other">%,d треков</item>
+    </plurals>
+
+    <plurals name="hours">
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+        <item quantity="other">%d часов</item>
+    </plurals>
+
+    <plurals name="minutes">
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+        <item quantity="other">%d минут</item>
+    </plurals>
+
+    <plurals name="seconds">
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунд</item>
+    </plurals>
+
+    <plurals name="tab_chats_all">
+        <item quantity="one">%d беседа</item>
+        <item quantity="few">%d беседы</item>
+        <item quantity="other">%d бесед</item>
+    </plurals>
+
+    <plurals name="tab_chats_deleted">
+        <item quantity="one">%d удаленная</item>
+        <item quantity="other">%d удаленных</item>
+    </plurals>
+
+    <string name="meters_short">%,d м</string>
+    <string name="kilometers_short">%,d км</string>
+
+    <!-- Play Icon -->
+    <string name="play_icon_upper_path_data">M 44 32 L 44 64 L 100 64 L 100 64 Z</string>
+    <string name="play_icon_bottom_path_data">M 44 96 L 44 64 L 100 64 L 100 64 Z</string>
+    <!-- Pause Icon -->
+    <string name="pause_icon_upper_path_data">M 32 40 L 32 56  L 96 56 L 96 40 Z</string>
+    <string name="pause_icon_bottom_path_data">M 32 88 L 32 72 L 96 72 L 96 88 Z</string>
+    <string name="find_lyrics_in_google">Найти текст в гугле</string>
+    <string name="no_lyrics">Текст песни не найден</string>
+    <string name="item_photos_map">Карта фотографий</string>
+    <string name="search_audio">Поиск аудио</string>
+    <string name="title_photos">Фотографии</string>
+    <string name="photo_map_description">Показывает фотографии на карте. Отображает только те фотографии, у которых есть гео точки.
+        \n1. Выберите масштаб карты
+        \n2. Нажмите на кнопку внизу
+        \n3. Ждите
+        \n\nТакже при долгом нажатии на плавающую кнопку можно загрузить фотографии из анализа беседы.
+        \nПоиск работает приблизительно, поэтому во время загрузки, если фотографии не появляются - попробуйте отдалить карту</string>
+    <string name="audio_item_delete">Удалить</string>
+    <string name="ignore_list_title">Игнор-лист</string>
+    <string name="reset_by_default">Восстановить по умолчанию</string>
+    <string name="clear_list">Очистить список</string>
+    <string name="error_text_has_space">Текст не должен содержать пробелов</string>
+    <string name="error_text_alreary_in_list">Слово уже есть в списке</string>
+    <string name="item_search">Поиск</string>
+    <string name="ignore_list_info">Этот список содержит слова, которые не учитываются в анализе беседы, то бишь они просто игнорируются. \nВсе просто ¯\\_(ツ)_/¯</string>
+    <string name="tg_support_developer">Поддержи разработчика</string>
+    <string name="tg_support_message">Хей, у нас есть телеграм канал, где мы публикуем всякие новости, и кое что еще. \nВозможно, тебе понравится</string>
+    <string name="join">Вступить</string>
+    <string name="settings_in_memory_db">In-Memory Database</string>
+    <string name="settings_in_memory_db_summary">Кеш сохраняется в озу, что заставит приложение работать быстрее. Однако после закрытия приложения он пропадет</string>
+    <string name="settings_item_use_audio_cache">Кэшировать треки</string>
+    <string name="clear_audio_cache">Очистить кэш треков</string>
+    <string name="action_select_all">Выбрать все</string>
+    <string name="fix_doc_ext_message"><![CDATA[Исправить расширение файла с <b>.%s</b> на <b>.%s</b> перед скачиванием?]]></string>
+    <string name="fix_doc_ext_help">Вкшники в очередной раз решили поднасрать, запретив загрузку запускаемых файлов (apk, exe, jar). Вместо проверки файла по сигнатуре - они проверяют расширение файла, из-за чего приходится его переименовывать, тем самым усложняя жизнь всем. \nСтоит ли говорить, что они держат своих юзеров за идиотов, которые по их логике тыкают на все что видят, и что это абсолютно тупое решение. Минутка гнева, спасибо за внимание</string>
+    <string name="no">Нет</string>
+    <string name="rename">Переименовать</string>
+    <string name="yes">Да</string>
+    <string name="shuffle">Перемешать</string>
+    <string name="scroll_to_bottom">Пробить дно</string>
+    <string name="item_show_on_map">Показать на карте</string>
+    <string name="setting_app_version">Версия: %s (build %d)</string>
+    <string name="video_quality">Качество видео</string>
+    <string name="filter">Фильтрация</string>
+    <string name="filter_all">Все</string>
+    <string name="filter_only_my">Только мои</string>
+    <string name="filter_has_geo">С гео точками</string>
+    <string name="sort_by_oldest">Сначала старые</string>
+    <string name="uploading_file">Загрузка файла…</string>
+    <string name="sending">Отправка в диалог…</string>
+    <string name="settings_optimized_sqlite_summary">Ускоряет работу приложения на старых версия дроида на ~30%.\n(Требуется перезапуск приложения)</string>
+    <string name="settings_optimized_sqlite">Оптимизированная сборка SQLite</string>
+    <string name="send_audio_as_voice">Отправить как голос</string>
+</resources>

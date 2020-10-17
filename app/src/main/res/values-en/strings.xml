@@ -1,0 +1,347 @@
+<resources>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="information">Info</string>
+    <string name="error_connection">Check your internet connection</string>
+    <string name="error_analyze_processing">Wait for finish analyzing</string>
+
+    <string name="start_auth">Login</string>
+    <string name="start_summary">Powerful functionality for VK</string>
+
+    <!--  Playback notification  -->
+    <string name="playback_channel_name">Doggy Player</string>
+
+    <string name="chat_choice">Choice chat</string>
+    <string name="item_friends">Friends</string>
+    <string name="item_messages">Messages</string>
+    <string name="item_photos">Photos</string>
+    <string name="item_groups">Groups</string>
+    <string name="item_chats">Chats</string>
+    <string name="item_audios">Audios</string>
+    <string name="item_developers">Developers</string>
+    <string name="item_requests">API Requests</string>
+    <string name="item_monitor">Monitor</string>
+
+    <!-- Friends -->
+    <string name="friends_choice">Choice friend</string>
+    <string name="friends_reg_date">Registration Date</string>
+    <string name="friends_reg_date_info">Registration date:
+        \n%s
+        \n
+        \nElapsed time:
+        \n%,d days (%,d years)
+        \n%,d hours
+        \n%,d mins
+    </string>
+    <string name="friends_contacts">Contacts Sync</string>
+    <string name="friends_dogs_clean">Dogs Clean</string>
+    <string name="friends_birthday">Birthdays</string>
+    <string name="friends_deactivated_info">
+        <b>BANNED</b> - The user is blocked for violation of the rules.
+        \n\n<b>DELETED</b> - The user deleted the page. This happens because of depression,
+        either he doesn\'t get enough attention. Потом восстановит.</string>
+
+    <string name="no_dogs">You haven\'t dogs. Want to buy them for our pet shop??</string>
+    <string name="dogs_shop_not_open">The pet shop is not open yet :(</string>
+    <string name="buy">Buy</string>
+
+    <!-- Messages -->
+    <string name="dialogs_clean">Clean Dialogs</string>
+    <string name="messages_graph">Activity graph</string>
+    <string name="messages_stats">Message statistics</string>
+    <string name="messages_analyze">Chat Analyze</string>
+    <string name="messages_stats_info" formatted="false">
+        <![CDATA[
+        <b>Total messages:</b> %,d / %,d
+        <br><b>First time:</b> %s
+        <br><b>Last time:</b> %s
+        <br><b>Outputting messages:</b> %,d
+        <br><b>Incoming messages:</b> %,d
+        <br><b>Forward messages:</b> %,d
+        <br><b>Words:</b> %,d
+        <br><b>Chars:</b> %,d
+        <br><b>Explicit Words:</b> ~%,d
+        <br>\n
+        <br><b>Total attachments:</b> %,d
+        <br><b>Images:</b> %,d
+        <br><b>Audios:</b> %,d
+        <br><b>Videos:</b> %,d
+        <br><b>Docs:</b> %,d
+        <br><b>Voices:</b> %,d
+        <br><b>Calls:</b> %,d
+        <br><b>Walls:</b> %,d
+        <br><b>Stickers:</b> %,d
+        <br><b>Gifts:</b> %,d
+        <br><b>Links:</b> %,d
+        ]]>
+    </string>
+    <string name="messages_stats_info_expanded" formatted="false">
+        <![CDATA[
+        <b>Total messages:</b> %,d / %,d • %,d%%
+        <br><b>First time:</b> %s
+        <br><b>Last time:</b> %s
+        <br><b>Outputting messages:</b> %,d • %.2f%%
+        <br><b>Incoming messages:</b> %,d • %.2f%%
+        <br><b>Forward messages:</b> %,d
+        <br><b>Words:</b> %,d
+        <br><b>Chars:</b> %,d
+        <br><b>Explicit Words:</b> ~%,d
+        <br>\n
+        <br><b>Total attachments:</b> %,d
+        <br><b>Images:</b> %,d • %,d geo points
+        <br><b>Audios:</b> %,d • %s
+        <br><b>Videos:</b> %,d
+        <br><b>Docs:</b> %,d • %s
+        <br><b>Voices:</b> %,d • %s
+        <br><b>Calls:</b> %,d • %s
+        <br><b>Walls:</b> %,d
+        <br><b>Stickers:</b> %,d
+        <br><b>Gifts:</b> %,d
+        <br><b>Links:</b> %,d
+        ]]>
+    </string>
+
+    <string name="msg_top_emoji">Top emoji</string>
+    <string name="messages_top_words">Top words</string>
+    <string name="messages_top_days">Top days</string>
+    <string name="messages_members">Members</string>
+    <string name="more">More</string>
+    <string name="messages_chat_restore_info">Shows the dialogs which you out.
+        This method allows you to restore only the dialog itself, but <b>is not the history</b> in it.
+        \nMessages <b>cannot be restored</b>.
+    </string>
+    <string name="messages_chat_restore_success">Chat restored</string>
+    <string name="choice_quality">Choice Quality</string>
+    <string name="downloading_photos">Downloading photos…</string>
+
+    <!-- Photos -->
+
+    <!-- You were removed from friends -->
+    <string name="unsubscribe">Unsubscribe</string>
+
+    <string name="settings_general">General</string>
+    <string name="settings_general_summary">Night mode, eternal online</string>
+    <string name="settings_night_mode">Dark mode</string>
+    <string name="settings_in_subscribers">You are in subscribers</string>
+    <string name="settings_in_subscribers_summary">Check every time you start who removed you from friends</string>
+    <string name="settings_online">Eternal online</string>
+    <string name="settings_online_summary">Send an account online every 5 minutes</string>
+
+    <string name="settings_disable_ads">Disable Ads</string>
+    <string name="settings_disable_ads_summary">This way you support the development</string>
+
+
+    <string name="settings_about">About</string>
+    <string name="settings_about_summary">About app, developer</string>
+    <string name="settings_developer">Developer</string>
+    <string name="settings_developer_summary">Igor Morozkin</string>
+
+    <string name="settings_share">Share</string>
+    <string name="settings_page_share">We will be grateful if you tell your friends</string>
+
+    <string name="settings_page">Telegram Channel</string>
+    <string name="settings_page_summary">Subscribe to listen latest updates</string>
+
+    <string name="settings_vk_scripts">VK Scripts</string>
+    <string name="settings_vk_scripts_summary">Thanks for idea</string>
+    <string name="ads_disabled">Thank you! Ads disabled. Restart app</string>
+
+    <string name="alert_feedback_title">Oops…</string>
+    <string name="alert_feedback_message">It seems the app crashed last time. Want to write me and solve this problem together?</string>
+    <string name="members">Members</string>
+    <string name="invited_by">invited by %s</string>
+    <string name="chat_admin">Admin</string>
+    <string name="disable_ads_message">You can buy a license and disable ads <b>forever</b>. Or watch one short video and turn off ads for the day</string>
+    <string name="action_buy">Buy</string>
+    <string name="action_watch_video">Watch video</string>
+    <string name="choice_number">Choice Number</string>
+    <string name="download">Download</string>
+    <string name="hidden_birthdays">Hidden Birthdays</string>
+    <string name="unknown">unknown</string>
+    <string name="hidden_birthdays_message">This function is <b>experimental</b>. Inaccurate results are possible. I can not say exactly why this is happening, maybe it is the protection of the VK. I\'ll definitely figure it out. Thank you for listening</string>
+    <string name="friends_lists">Friends Lists</string>
+    <string name="friends_requests">Requests</string>
+    <string name="friends_lists_alert_info">Shows friends lists. That is, displays those friends who have marked you, for example, as "Best friends", " Colleagues"</string>
+    <string name="you"> (You) </string>
+    <string name="works">works</string>
+    <string name="long_click_to_select_all">Long click to select all</string>
+    <string name="select_more_friends">Select at least one friend</string>
+    <string name="deleting">Deleting</string>
+    <string name="groups_clean">Groups Clean</string>
+    <string name="type_group">Group</string>
+    <string name="type_page">Page</string>
+    <string name="type_event">Event</string>
+    <string name="no_photos">No photos</string>
+    <string name="success">Success</string>
+    <string name="file_saved_in">File saved in </string>
+    <string name="save_chat">Save chat</string>
+
+    <string name="settings_other">Other</string>
+    <string name="settings_other_summary">Proxy, domains</string>
+    <string name="settings_proxy">Proxy</string>
+    <string name="settings_api_domain">API Domain</string>
+    <string name="settings_oauth_domain">OAuth Domain</string>
+    <string name="text_label_login">Login</string>
+    <string name="text_label_password">Password</string>
+    <string name="choose_platform">Choose Platform</string>
+    <string name="settings_online_platform">Online Platform</string>
+    <string name="settings_online_platform_summary">Change online ID, thus friends will think that you are online from another device such as Android or iPhone</string>
+    <string name="text_copied">Copied to Clipboard</string>
+    <string name="stats_share">Send to chat</string>
+    <string name="reward_failed_to_load">Failed To Load. Try later</string>
+    <string name="error_check_license_message">Sorry, we were unable to verify your license. The reason for this may be an illegal attempt to get it using programs such as Lucky Patcher and Freedom. Piracy is bad</string>
+    <string name="error_check_license">Error check license</string>
+    <string name="sync_contacts">Sync Contacts</string>
+    <string name="friends_requests_alert">Outgoing requests are friend requests that you send to other users. But also they still display those people who you <b>removed from friends</b></string>
+    <string name="action_unsubscribe">Unsubscribe</string>
+    <string name="friends_ban_message">Successfully unsubscribed from %,d people. Do you want to ban them so that you are not disturbed anymore</string>
+    <string name="blocking">Banning</string>
+    <string name="storage_location">Storage Path</string>
+    <string name="audios_subtitle">%s • %s</string>
+    <string name="bulk_download">Bulk Download</string>
+    <string name="music_folder">Music Folder</string>
+    <string name="download_enqueue">Enqueue…</string>
+    <string name="alternative_downloader">Alternative Downloader</string>
+    <string name="alert_alternative_downloader">You must have installed one of the alternative loaders, such as Advanced Download Manager or DVGet</string>
+    <string name="save_password">Save password</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="translate">Translate</string>
+    <string name="find_lyrics">Find Lyrics</string>
+    <string name="find_lyrics_message">This function searches for words and adds it to all your audio recordings that do not have text. I can\'t guarantee he\'ll find the lyrics to all the songs, especially the Russians, but he\'s got to find the lion\'s share. All information provided on the site www.azlyrics.com</string>
+    <string name="finding_lyrics">Finding lyrics…</string>
+    <string name="two_factor_confirm">You have two-factor authentication enabled. Enter the confirmation code that will come to you by SMS or message</string>
+    <string name="cleaning">Cleaning…</string>
+    <string name="found_update">Update found</string>
+    <string name="found_update_message">Found new version: %s (Build %d). Update?</string>
+    <string name="choice_app">Choice app</string>
+    <string name="bitrate">Info / Bitrate</string>
+    <string name="bitrate_per_sec">%d bits/sec</string>
+    <string name="disable_ads_first">Приложение остается бесплатным благодаря рекламе, однако вы всегда можете ее отключить, тем самым помочь</string>
+    <string name="title_response">Response</string>
+    <string name="copy_text">Copy Text</string>
+    <string name="help">G</string>
+    <string name="refresh">Refresh</string>
+    <string name="sort">Sort</string>
+
+    <string name="sort_by_default">By default</string>
+    <string name="sort_by_date">By date</string>
+    <string name="sort_by_alphabet">By alphabet</string>
+    <string name="sort_by_length">By length</string>
+    <string name="sort_by_explicit">By explicit</string>
+
+    <string name="unique_words">unique words: %,d</string>
+    <string name="unique_smiles">unique emoji: %,d</string>
+    <string name="total_days">total days: %,d</string>
+    <string name="attachments_title">Attachments</string>
+    <string name="login">Login</string>
+    <string name="auth">Auth</string>
+    <string name="empty_login_error">Login can\'t be empty</string>
+    <string name="empty_password_error">Password can\'t be empty</string>
+    <string name="online_warring">Frequent cases of blocking accounts due to the eternal online. VC usually puts us stick in the wheel. I\'ve changed the algorithm a bit, but I can\'t guarantee that everything will be perfect-use at your own risk</string>
+    <string name="copy_link">Copy Link</string>
+    <string name="downloading">Downloading…</string>
+    <string name="voice_msg">Voice Message</string>
+    <string name="get_voice_text">Voice to text</string>
+    <string name="error_app_modified">The app has been modified. Please don\'t do this. Remove it, and install the official app from Google Play</string>
+    <string name="get_audios_size">Узнать размер</string>
+    <string name="get_audios_size_message">Shows total audios size. It may take a long time, because it is necessary to determine the bitrate of all your songs, but for the approximate value of the first two or three tracks. To cancel operation simply dismiss this dialog.
+    \n\nScanned songs: %d / %d\nSize: ~%s
+    </string>
+    <string name="settings_data_and_memory">Data and memory</string>
+    <string name="settings_data_and_memory_summary">Export, clear cache</string>
+    <string name="clear_local_cache">Clear data cache</string>
+    <string name="clear_image_cache">Clear image cache</string>
+    <string name="size_format">Size: %s</string>
+    <string name="export_database">Export Database</string>
+    <string name="export_database_summary">Save database to sdcard</string>
+    <string name="settings_music_folder">Music Folder</string>
+    <string name="settings_account">Account</string>
+    <string name="search">Search</string>
+    <string name="open_contact">Open contact</string>
+    <string name="skype_not_found">Please install Skype App from Google Play</string>
+    <string name="settings_qiwi">Support me</string>
+    <string name="choice_csv_fields">Choice fields to export</string>
+    <string name="show">Show</string>
+    <string name="export_to_csv">CSV (Excel)</string>
+    <string name="export_to_vcf">VCF (Android)</string>
+    <string name="export_to">Export to</string>
+    <string name="find_lyrics_in_google">Find lyrics in Google</string>
+    <string name="no_lyrics">Lyrics not found</string>
+    <string name="item_photos_map">Photos Map</string>
+    <string name="search_audio">Search Audio</string>
+
+    <plurals name="tracks">
+        <item quantity="one">%,d track</item>
+        <item quantity="other">%,d tracks</item>
+    </plurals>
+
+    <plurals name="hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+
+    <plurals name="minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+
+    <plurals name="seconds">
+        <item quantity="one">%d sec</item>
+        <item quantity="other">%d secs</item>
+    </plurals>
+
+    <plurals name="tab_chats_all">
+        <item quantity="one">%d chat</item>
+        <item quantity="other">%d chats</item>
+    </plurals>
+
+    <plurals name="tab_chats_deleted">
+        <item quantity="one">%d deleted</item>
+        <item quantity="other">%d deleted</item>
+    </plurals>
+
+    <string name="meters_short">%,d m</string>
+    <string name="kilometers_short">%,d km</string>
+    <string name="title_photos">Photos</string>
+    <string name="photo_map_description">Shows photos on the map. Displays only those images that have the geo point.
+        \n1. Scale map;
+        \n2. Click the floating button;
+        \n3. Wait.;
+        \n\nAlso when you long press, you can upload photos from an analysis of the conversation</string>
+    <string name="audio_item_delete">Remove</string>
+    <string name="ignore_list_title">Ignore List</string>
+    <string name="reset_by_default">Reset by default</string>
+    <string name="clear_list">Clear</string>
+    <string name="error_text_has_space">Text must\'be contains space</string>
+    <string name="error_text_alreary_in_list">Word is already in list</string>
+    <string name="item_search">Search</string>
+    <string name="ignore_list_info">This list contains words that are not taken into account in the analysis of the conversation, that is, they are simply ignored All just \_(ツ)_//</string>
+    <string name="tg_support_developer">Support me</string>
+    <string name="tg_support_message">Hey, we have a telegram channel where we publish app news, and something else. \nYou might like it. Join now?</string>
+    <string name="join">Join</string>
+    <string name="settings_in_memory_db">In-Memory Database</string>
+    <string name="settings_in_memory_db_summary">Avoid disk cache, increase app speed</string>
+    <string name="settings_item_use_audio_cache">Use audio cache</string>
+    <string name="clear_audio_cache">Clear audio cache</string>
+    <string name="action_select_all">Select all</string>
+    <string name="fix_doc_ext_message"><![CDATA[Fix doc extension from <b>.%s</b> to <b>.%s</b> before downloading?]]></string>
+    <string name="fix_doc_ext_help">Вкшники в очередной раз решили поднасрать всем, запретив загрузку запускаемых файлов (apk, exe, jar). Вместо проверки файла по сигнатуре - они проверяют расширение файла, из-за чего приходится его переименовывать, тем самым усложняя жизнь всем. Стоит ли говорить, что они держат своих юзеров за идиотов, которые по их логике тыкают на все что видят, и что это абсолютно тупое решение. Минутка гнева, спасибо за внимание</string>
+    <string name="no">No</string>
+    <string name="rename">Rename</string>
+    <string name="yes">Yes</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="scroll_to_bottom">Scroll to bottom</string>
+    <string name="item_show_on_map">Show on map</string>
+    <string name="setting_app_version">Version: %s (build %d)</string>
+    <string name="video_quality">Video Quality</string>
+    <string name="filter">Filter</string>
+    <string name="filter_all">All</string>
+    <string name="filter_only_my">Only My</string>
+    <string name="filter_has_geo">Has geo</string>
+    <string name="sort_by_oldest">By oldest</string>
+    <string name="uploading_file">Uploading file…</string>
+    <string name="sending">Отправка…</string>
+    <string name="settings_optimized_sqlite_summary">Speeds up app. Useful if you have an old Android version (5.0).\n(restart app required)</string>
+    <string name="settings_optimized_sqlite">Use optimized SQLite binary</string>
+    <string name="send_audio_as_voice">Send audio as voice</string>
+</resources>

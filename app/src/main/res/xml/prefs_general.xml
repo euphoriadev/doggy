@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="@string/settings_general" android:icon="@android:color/transparent">
+        <SwitchPreference
+            android:icon="@drawable/ic_vector_sun"
+            android:defaultValue="false"
+            android:key="night_mode"
+            android:title="@string/settings_night_mode" />
+
+        <SwitchPreference
+            android:icon="@android:color/transparent"
+            android:defaultValue="true"
+            android:key="in_subscribers"
+            android:summary="@string/settings_in_subscribers_summary"
+            android:title="@string/settings_in_subscribers" />
+
+        <SwitchPreference
+            android:icon="@android:color/transparent"
+            android:defaultValue="false"
+            android:key="online"
+            android:summary="@string/settings_online_summary"
+            android:title="@string/settings_online" />
+
+        <Preference
+
+            android:icon="@android:color/transparent"
+            android:key="online_platform"
+            android:summary="@string/settings_online_platform_summary"
+            android:title="@string/settings_online_platform" />
+
+        <Preference
+            android:icon="@android:color/transparent"
+            android:key="disable_ads"
+            android:summary="@string/settings_disable_ads_summary"
+            android:title="@string/settings_disable_ads" />
+    </PreferenceCategory>
+</PreferenceScreen>

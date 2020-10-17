@@ -1,0 +1,16 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <corners android:radius="24dp" />
+            <size
+                android:width="36dp"
+                android:height="36dp" />
+            <solid android:color="?audioPlaceholderBackground" />
+        </shape>
+    </item>
+
+    <item
+        android:drawable="@drawable/ic_vector_link_tint"
+        android:gravity="center" />
+</layer-list>

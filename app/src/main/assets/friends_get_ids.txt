@@ -1,0 +1,13 @@
+var user_ids = %s;
+var response = [];
+
+int i = 0;
+while(i < user_ids.length) {
+    var owner = user_ids[i];
+    var friends = API.getFriends({"user_id": owner});
+
+    var item = {"owner": owner, "count": friends.count, "friends": friends.items};
+    response.push(item);
+    i = i + 1;
+}
+return response;

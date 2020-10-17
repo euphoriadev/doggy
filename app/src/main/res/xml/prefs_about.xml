@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_about">
+        <Preference
+            android:icon="@android:color/transparent"
+            android:key="app_version"
+             />
+
+        <Preference
+            android:icon="@android:color/transparent"
+            android:key="share"
+            android:summary="@string/settings_page_share"
+            android:title="@string/settings_share" />
+        <Preference
+            android:icon="@android:color/transparent"
+            android:key="page"
+            android:summary="@string/settings_page_summary"
+            android:title="@string/settings_page" />
+        <Preference
+            android:icon="@android:color/transparent"
+            android:key="developer"
+            android:summary="@string/settings_developer"
+            android:title="@string/settings_developer_summary" />
+        <Preference
+            android:icon="@android:color/transparent"
+            android:key="vk_scripts"
+            android:summary="@string/settings_vk_scripts_summary"
+            android:title="@string/settings_vk_scripts" />
+    </PreferenceCategory>
+</PreferenceScreen>

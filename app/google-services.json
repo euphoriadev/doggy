@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "181316996589",
+    "firebase_url": "https://doggy-b2958.firebaseio.com",
+    "project_id": "doggy-b2958",
+    "storage_bucket": "doggy-b2958.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181316996589:android:f3b55fe169f7b0f1",
+        "android_client_info": {
+          "package_name": "ru.euphoria.doggy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181316996589-07408jqindmgrjfk7fa1eelq843l0o6b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEs4_ZelgUP5Jl-o9oeHIa_1S7U6Txg3A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

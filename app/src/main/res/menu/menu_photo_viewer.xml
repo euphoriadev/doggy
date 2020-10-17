@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:showAsAction="always"
+        android:title="@string/download"
+        android:icon="@drawable/ic_vector_file_download"
+        android:id="@+id/item_download">
+
+        <!-- Put this photo resolutions from code -->
+        <menu/>
+    </item>
+
+    <item android:id="@+id/item_copy_link"
+        android:title="@string/copy_link"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/item_open_on_map"
+        android:title="@string/item_show_on_map"
+        app:showAsAction="never"/>
+</menu>

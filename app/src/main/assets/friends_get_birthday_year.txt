@@ -1,0 +1,29 @@
+var from = 13;
+var to = 23;
+var params = {
+    "q": "%s",
+    "from_list": "friends",
+};
+var i = 0;
+var j = 0;
+
+while (i <= 11) {
+    i = i + 1;
+    var response = API.users.search(params);
+    if (response.count > 0) {
+        var age = from;
+        while (j <= 10) {
+            params.age_from = age;
+            params.age_to = age;
+
+            response = API.users.search(params);
+            if (response.count > 0) {
+                return {"age": age, "items": response.items};
+            }
+            age = age + 1;
+            j = j + 1;
+        }
+    }
+    from = from + 10;
+    to = to + 10;
+}

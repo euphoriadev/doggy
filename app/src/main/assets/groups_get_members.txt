@@ -1,0 +1,29 @@
+var params = {
+  count: 1000,
+  offset: 0,
+  group_id: %d,
+  fields: "%s"
+};
+
+var calls = 0;
+var items = [];
+var total_count = 0;
+
+while (calls < 25) {
+  calls = calls + 1;
+
+  var response = API.groups.getMembers(params);
+  total_count = response.count;
+  params.offset = params.offset + response.items.length;
+
+  items = items + response.items;
+  if (params.offset >= total_count) {
+      calls = 99;
+  }
+}
+
+return {
+  "count": total_count,
+  "items": items,
+  "offset": params.offset
+};

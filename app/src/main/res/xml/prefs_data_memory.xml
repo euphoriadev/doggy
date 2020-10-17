@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="data_and_memory"
+        android:title="@string/settings_data_and_memory">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@android:color/transparent"
+
+            android:key="audio_cache"
+            android:title="@string/settings_item_use_audio_cache" />
+
+
+        <Preference
+            android:icon="@android:color/transparent"
+            android:key="music_folder"
+            android:title="@string/settings_music_folder" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@android:color/transparent"
+            android:key="optimized_sqlite"
+            android:summary="@string/settings_optimized_sqlite_summary"
+            android:title="@string/settings_optimized_sqlite" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:icon="@android:color/transparent"
+
+            android:key="in_memory_database"
+            android:summary="@string/settings_in_memory_db_summary"
+            android:title="@string/settings_in_memory_db" />
+
+        <Preference
+            android:icon="@android:color/transparent"
+            android:key="export_database"
+            android:summary="@string/export_database_summary"
+            android:title="@string/export_database" />
+
+        <Preference
+            android:icon="@android:color/transparent"
+            android:key="clear_local_database"
+            android:title="@string/clear_local_cache" />
+
+        <Preference
+            android:icon="@android:color/transparent"
+            android:key="clear_image_cache"
+            android:title="@string/clear_image_cache" />
+
+        <Preference
+            android:icon="@android:color/transparent"
+            android:key="clear_audio_cache"
+            android:title="@string/clear_audio_cache" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

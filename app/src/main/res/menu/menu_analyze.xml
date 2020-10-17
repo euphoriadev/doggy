@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_attachments"
+        android:title="@string/attachments_title"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_share"
+        android:icon="@drawable/ic_vector_share"
+        android:title="@string/stats_share"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item_members"
+        android:icon="@drawable/ic_vector_people"
+        android:title="@string/members"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_ignore_list"
+        android:title="@string/ignore_list_title"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_chart"
+        android:title="@string/messages_graph"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_send_voice"
+        android:title="@string/send_audio_as_voice"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_test"
+        android:title="Test speed"
+        app:showAsAction="never" />
+
+    <item
+        android:visible="false"
+        android:id="@+id/item_pick_range"
+        android:title="Выбрать период"
+        app:showAsAction="never" />
+</menu>

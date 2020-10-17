@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="attachments">
+        <item>Photos</item>
+        <item>Videos</item>
+        <item>Audios</item>
+        <item>Documents</item>
+        <item>Links</item>
+        <item>Voices</item>
+    </string-array>
+
+    <string-array name="chats_tabs">
+        <item>All Chats</item>
+        <item>Deleted</item>
+    </string-array>
+
+    <string-array name="monitor_tabs">
+        <item>All Events</item>
+        <item>Friends</item>
+    </string-array>
+
+    <string-array name="chat_options">
+        <item>Open in browser</item>
+        <item>Join</item>
+    </string-array>
+
+    <string-array name="storage_location">
+        <item>Internal Storage (%s)</item>
+        <item>SD Card (%s)</item>
+    </string-array>
+
+    <string-array name="dialog_extensions">
+        <item>JSON</item>
+        <item>Text</item>
+        <item>Text (extended)</item>
+    </string-array>
+
+    <string-array name="dialog_header">
+        <item>Copy link</item>
+    </string-array>
+
+    <string-array name="user_header">
+        <item>Copy id</item>
+        <item>Copy link</item>
+        <item>Copy access token</item>
+    </string-array>
+
+    <string-array name="chat_member_dialog">
+        <item>Open profile</item>
+        <item>Kick user</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

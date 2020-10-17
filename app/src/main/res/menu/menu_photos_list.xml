@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_sort"
+        android:title="@string/sort"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/item_sort_by_default"
+                android:title="@string/sort_by_default" />
+            <item
+                android:id="@+id/item_sort_by_oldest_date"
+                android:title="@string/sort_by_oldest" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_filter"
+        android:title="@string/filter"
+        app:showAsAction="never">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:checked="true"
+                    android:id="@+id/item_filter_all"
+                    android:title="@string/filter_all" />
+
+                <item
+                    android:id="@+id/item_filter_my"
+                    android:title="@string/filter_only_my" />
+
+                <item
+                    android:id="@+id/item_filter_geo"
+                    android:title="@string/filter_has_geo" />
+            </group>
+        </menu>
+    </item>
+</menu>

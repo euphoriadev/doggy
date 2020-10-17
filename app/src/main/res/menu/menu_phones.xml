@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_sync"
+        android:icon="@drawable/ic_vector_cloud_sync"
+        android:title="@string/sync_contacts"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_export_to"
+        app:showAsAction="never"
+        android:title="@string/export_to">
+
+        <menu>
+            <item
+                android:id="@+id/item_export_csv"
+                android:title="@string/export_to_csv" />
+
+            <item
+                android:id="@+id/item_export_vcf"
+                android:title="@string/export_to_vcf" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_search"
+        android:icon="@drawable/ic_vector_search"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+</menu>

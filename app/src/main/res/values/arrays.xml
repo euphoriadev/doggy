@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="attachments">
+        <item>Изображения</item>
+        <item>Видео</item>
+        <item>Аудио</item>
+        <item>Документы</item>
+        <item>Ссылки</item>
+        <item>Голос</item>
+    </string-array>
+
+    <string-array name="csv_fields">
+        <item>ID</item>
+        <item>Имя</item>
+        <item>Фамилия</item>
+        <item>Основной номер</item>
+        <item>Дополнительный номер</item>
+        <item>Skype</item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+        <item>Instagram</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>Январь</item>
+        <item>Февраль</item>
+        <item>Март</item>
+        <item>Апрель</item>
+        <item>Май</item>
+        <item>Июнь</item>
+        <item>Июль</item>
+        <item>Август</item>
+        <item>Сентябрь</item>
+        <item>Октябрь</item>
+        <item>Ноябрь</item>
+        <item>Декабрь</item>
+    </string-array>
+
+    <string-array name="chats_tabs">
+        <item>Все беседы</item>
+        <item>Удаленные</item>
+    </string-array>
+
+    <string-array name="monitor_tabs">
+        <item>Все события</item>
+        <item>Друзья</item>
+    </string-array>
+
+    <string-array name="chat_options">
+        <item>Открыть в браузере</item>
+        <item>Войти в чат</item>
+    </string-array>
+
+    <string-array name="storage_location">
+        <item>Устройства (%s)</item>
+        <item>SD Карта (%s)</item>
+    </string-array>
+    
+    <string-array name="dialog_extensions">
+        <item>JSON</item>
+        <item>Текст</item>
+        <item>Текст (расширенный)</item>
+    </string-array>
+
+    <string-array name="dialog_header">
+        <item>Скопировать ссылку</item>
+    </string-array>
+
+    <string-array name="user_header">
+        <item>Скопировать id</item>
+        <item>Скопировать ссылку</item>
+        <item>Скопировать токен</item>
+    </string-array>
+
+    <string-array name="chat_member_dialog">
+        <item>Открыть профиль</item>
+        <item>Исключить из чата</item>
+    </string-array>
+
+    <string-array name="weeks">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
+    </string-array>
+</resources>

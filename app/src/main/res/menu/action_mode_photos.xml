@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item_download"
+        android:icon="@drawable/ic_vector_file_download"
+        android:title="@string/download"/>
+
+    <item android:id="@+id/item_select_all"
+        android:icon="@drawable/ic_vector_select_all"
+        android:title="@string/action_select_all"/>
+</menu>

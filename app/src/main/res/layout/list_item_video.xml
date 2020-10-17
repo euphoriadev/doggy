@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/content_padding_video_item"
+    android:paddingTop="@dimen/content_padding_video_item_half"
+    android:paddingBottom="@dimen/content_padding_video_item_half">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/video.preview"
+            android:layout_width="120dp"
+            android:layout_height="67.5dp"
+            android:background="@android:color/black"
+            android:focusable="false"
+            android:scaleType="fitCenter"
+            tools:background="@color/colorAccent" />
+
+        <TextView
+            android:id="@+id/video.duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="4dp"
+            android:background="@drawable/time_indicator"
+            android:gravity="center_vertical"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            tools:text="12:02" />
+    </FrameLayout>
+
+    <Space
+        android:layout_width="@dimen/content_padding_video_item"
+        android:layout_height="0dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/video.title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="?android:textColorPrimary"
+            tools:text="Android 10 Developer Preview: very long description" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="1dp" />
+
+        <TextView
+            android:id="@+id/video.views"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="?android:textColorSecondary"
+            tools:text="Views: 123 000" />
+    </LinearLayout>
+
+    <include layout="@layout/image_overflow" />
+</LinearLayout>

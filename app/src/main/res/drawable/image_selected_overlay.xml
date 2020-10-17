@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:bottom="@dimen/content_padding" />
+            <padding android:top="@dimen/content_padding" />
+            <padding android:left="@dimen/content_padding" />
+            <padding android:right="@dimen/content_padding" />
+            <solid android:color="#80000000" />
+        </shape>
+    </item>
+
+    <item
+        android:drawable="@drawable/ic_vector_check"
+        android:gravity="center" />
+</layer-list>

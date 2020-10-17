@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_unsubscribe"
+        android:icon="@drawable/ic_vectot_delete"
+        android:title="@string/action_unsubscribe"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/item_select_all"
+        android:icon="@drawable/ic_vector_select_all"
+        android:title="@string/action_select_all"/>
+</menu>

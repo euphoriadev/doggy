@@ -1,0 +1,13 @@
+int user_id = %s;
+var fields = "%s";
+var order = "%s";
+var offset = 0;
+
+var friends = API.friends.get({
+    "user_id": user_id,
+    "order": order,
+    "count": 10000,
+    "fields": fields
+    });
+
+return friends;

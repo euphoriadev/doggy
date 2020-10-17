@@ -1,0 +1,17 @@
+var params = {
+    "q": "%s",
+    "from_list": "friends",
+    "birth_month": 1
+};
+
+int i = 0;
+while ((i = i + 1) < 12) {
+    params.birth_month = i;
+
+    var response = API.users.search(params);
+    if (response.count > 0) {
+        return {"month": params.birth_month,
+        "items": response.items};
+    }
+}
+return "unknown";

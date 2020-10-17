@@ -1,0 +1,17 @@
+var total = API.messages.getConversations({"count": 1}).count;
+var params = {
+	"count": 200,
+	"offset": 0
+};
+var current = 0;
+var chats = {};
+
+while (current < total) {
+	var items = API.messages.getConversations(params).items@.conversation;
+	chats = chats + items;
+
+	params.offset = params.offset + items.length;
+	current = params.offset;
+}
+
+return chats;

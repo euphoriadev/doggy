@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <View
+        android:id="@+id/chart.legend.item.color"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/circle_avatar"
+        android:backgroundTint="@color/red_600" />
+
+    <TextView
+        android:id="@+id/chart.legend.item.label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="14sp"
+        tools:text="Morozkin Igor" />
+</LinearLayout>

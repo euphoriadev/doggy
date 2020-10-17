@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings" android:icon="@android:color/transparent">
+        <Preference
+            android:icon="@drawable/ic_vector_home"
+            android:key="screen_general"
+            android:title="@string/settings_general" />
+
+        <Preference
+            android:icon="@drawable/ic_vector_chart_donut"
+            android:key="screen_data_memory"
+            android:title="@string/settings_data_and_memory" />
+
+        <Preference
+            android:icon="@drawable/ic_vector_shield_account"
+            android:key="screen_other"
+            android:title="@string/settings_other" />
+
+        <Preference
+            android:icon="@drawable/ic_vector_about"
+            android:key="screen_about"
+            android:title="@string/settings_about" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_account">
+        <Preference
+            android:icon="@drawable/ic_vector_logout"
+            android:key="logout"
+            android:title="@string/logout" />
+    </PreferenceCategory>
+</PreferenceScreen>

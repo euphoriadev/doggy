@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/recycler" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        style="?android:borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:colorAccent"
+        android:text="Delete selected"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryTextColorLight"
+        android:visibility="gone" />
+</LinearLayout>

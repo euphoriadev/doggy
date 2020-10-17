@@ -1,0 +1,116 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Base.AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="cardBackgroundColor">@color/cardView</item>
+        <item name="imagePlaceholder">@color/grey_200</item>
+        <item name="imagePlaceholderAvatar">@color/grey_400</item>
+        <item name="audioPlaceholderBackground">@color/audioPlaceholderBg</item>
+        <item name="audioPlaceholderIconColor">@color/audioPlaceholderIcon</item>
+
+        <item name="android:navigationBarColor">?colorPrimaryDark</item>
+
+        <!-- For Snackbar inflating -->
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <item name="android:textColorPrimary">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+        <item name="android:textColorHint">@color/disabledTextColor</item>
+
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="android:colorControlActivated">@color/vkColor</item>
+    </style>
+
+    <style name="Base.AppTheme.Dark" parent="Theme.MaterialComponents.NoActionBar.Bridge">
+        <item name="android:windowContentOverlay">@null</item>
+        <!--Theme Colors-->
+        <item name="android:colorPrimary">@color/darkColorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="android:colorAccent">@color/vkColor</item>
+        <item name="cardBackgroundColor">@color/cardViewDark</item>
+        <item name="imagePlaceholder">@android:color/darker_gray</item>
+        <item name="imagePlaceholderAvatar">@color/disabledTextColor</item>
+        <item name="audioPlaceholderBackground">?cardBackgroundColor</item>
+        <item name="audioPlaceholderIconColor">@color/darkAudioPlaceholderIcon</item>
+
+        <!-- For Snackbar inflating and appcompat support -->
+        <item name="colorPrimary">@color/darkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="colorAccent">@color/vkColor</item>
+
+        <!--Text Colors -->
+        <item name="android:textColorPrimary">@color/primaryTextColorLight</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColorLight</item>
+        <item name="android:textColorHint">@color/disabledTextColorLight</item>
+
+        <item name="android:windowBackground">@color/darKWindowBackground</item>
+        <item name="windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="AppTheme" parent="Base.AppTheme"/>
+    <style name="AppTheme.Dark" parent="Base.AppTheme.Dark"/>
+
+    <style name="PlayerActionButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:tint">?android:textColorPrimary</item>
+    </style>
+
+    <!--Photo Maps -->
+    <style name="AppTheme.PhotoMap">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="AppTheme.Dark.PhotoMap">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+
+    <style name="AppTheme.Photos">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="AppTheme.AdAttribution">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:text">/ADS</item>
+        <item name="android:background">#FFCC66</item>
+        <item name="android:width">15dp</item>
+        <item name="android:height">15dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--  Date Picker Theme  -->
+    <style name="MaterialCalendarTheme" parent="Theme.MaterialComponents.NoActionBar.Bridge">
+        <!-- Picker styles and themes. -->
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorPrimary">@color/colorAccent</item>
+
+        <item name="materialCalendarStyle">@style/Widget.MaterialComponents.MaterialCalendar</item>
+        <item name="materialCalendarFullscreenTheme">@style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen</item>
+        <item name="materialCalendarTheme">@style/ThemeOverlay.MaterialComponents.MaterialCalendar</item>
+    </style>
+</resources>

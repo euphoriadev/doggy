@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_download"
+        android:icon="@drawable/ic_vector_file_download"
+        android:title="@string/download" />
+
+    <item
+        android:id="@+id/item_copy_link"
+        android:icon="@drawable/ic_vector_link"
+        android:title="@string/copy_link" />
+
+
+    <item
+        android:id="@+id/item_find_lyrics"
+        android:icon="@drawable/ic_vector_text"
+        android:title="@string/find_lyrics" />
+
+    <item
+        android:id="@+id/item_lyrics"
+        android:icon="@drawable/ic_vector_text"
+        android:title="@string/lyrics" />
+
+    <item
+        android:id="@+id/item_bitrate"
+        android:title="@string/bitrate" />
+
+    <item
+        android:id="@+id/item_audios_delete"
+        android:title="@string/audio_item_delete" />
+</menu>

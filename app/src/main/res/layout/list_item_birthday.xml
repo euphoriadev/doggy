@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    app:cardBackgroundColor="?cardBackgroundColor"
+    app:cardElevation="@dimen/cardview_default_elevation">
+
+    <include layout="@layout/list_item_friend" />
+</androidx.cardview.widget.CardView>

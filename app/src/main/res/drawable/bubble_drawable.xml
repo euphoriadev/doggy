@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="@dimen/custom_profile_image"
+                android:height="@dimen/custom_profile_image" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+
+    <item
+        android:bottom="@dimen/custom_profile_triangle_padding"
+        android:left="@dimen/custom_profile_triangle_padding"
+        android:right="@dimen/custom_profile_triangle_padding"
+        android:top="@dimen/custom_profile_triangle_padding">
+        <rotate
+            android:fromDegrees="45"
+            android:pivotX="0%"
+            android:pivotY="70%">
+            <shape android:shape="rectangle">
+                <corners android:radius="3dp" />
+                <solid android:color="@android:color/white" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

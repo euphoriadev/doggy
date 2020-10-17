@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_search"
+        android:icon="@drawable/ic_vector_search"
+        android:title="@string/item_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/item_reset"
+        android:title="@string/reset_by_default"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item_clear"
+        android:title="@string/clear_list" />
+</menu>
