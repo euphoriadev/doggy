@@ -20,8 +20,8 @@
 
 ## А как собрать проект?
 1. Импортируйте проект в [Android Studio](https://developer.android.com/studio)
-2. Добавьте `KEY_ALIAS`, `KEY_PASSWORD`, `KEYSTORE_PASSWORD`, `KEYSTORE_FILE` в `gradle.properties`для release сборки
-3. Нжамите Run
+2. Добавьте `KEY_ALIAS`, `KEY_PASSWORD`, `KEYSTORE_PASSWORD`, `KEYSTORE_FILE` в `gradle.properties` для release сборки
+3. Нажмите Run
 4. Профит
 
 Так же приложение использует сторонние сервисы (SpeechKit, AppMetrica, ...) для которых желательно получить ключи доступа.
