@@ -1,7 +1,7 @@
 # Doggy
 [![Doggy](https://img.shields.io/badge/build-passed-brightgreen)](https://github.com/euphoriadev/doggy)
 
-Помошник с большим функционалом для вашей страницы ВКонтакте
+Помощник с большим функционалом для вашей страницы ВКонтакте
 
 <a href="https://play.google.com/store/apps/details?id=ru.euphoria.doggy">
 <img src="https://play.google.com/intl/en_us/badges/static/images/badges/ru_badge_web_generic.png" alt="Download on Google Play" height="100" /><
