@@ -24,7 +24,8 @@
 3. Нжамите Run
 4. Профит
 
-Так же приложение использует сторонние сервисы (SpeechKit, AppMetrica, ...) для которых желательно получить ключи доступа
+Так же приложение использует сторонние сервисы (SpeechKit, AppMetrica, ...) для которых желательно получить ключи доступа.
+
 Их необходимо добавить в [Tokens.java](https://github.com/euphoriadev/doggy/blob/master/app/src/main/java/ru/euphoria/doggy/common/Tokens.java)
 
 ## Контакты
